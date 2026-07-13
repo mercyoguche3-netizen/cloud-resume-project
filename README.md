@@ -12,16 +12,37 @@
 
 ---
 
+## 📌 Project Summary
+
+| Category | Details |
+|----------|---------|
+| Project | Cloud Resume Project |
+| Cloud Provider | Amazon Web Services (AWS) |
+| Architecture | Serverless |
+| Frontend | HTML, CSS, JavaScript |
+| Backend | AWS Lambda (Python) |
+| Database | Amazon DynamoDB |
+| API | Amazon API Gateway |
+| CDN | Amazon CloudFront |
+| Hosting | Amazon S3 |
+| Version Control | Git & GitHub |
+
+---
+
 ## Table of Contents
 
 - Project Overview
-- Project Goal
-- Development Journey
 - AWS Architecture
+- Project Goal
+- Live Demo
+- Development Journey
 - Key Skills
 - Challenges & Solutions
 - Lessons Learned
+- Key Takeaways
+- Technologies used
 - Project Timeline
+- Project Outcome
 - About the Author
 
 ---
@@ -33,6 +54,14 @@ This project is my implementation of the **Cloud Resume Project**, designed to d
 The project combines frontend development, version control, cloud infrastructure, serverless computing, API development, and NoSQL databases into one complete cloud-native application.
 
 Whenever a visitor opens the website, the visitor counter is automatically updated using AWS Lambda and Amazon DynamoDB.
+
+---
+
+# AWS Architecture
+
+The following architecture diagram illustrates the complete serverless workflow used in this project.
+
+![Cloud Resume Architecture](images/architecture-diagram.png)
 
 ---
 
@@ -161,6 +190,14 @@ Created the JavaScript file responsible for:
 - Receiving JSON responses
 - Updating the visitor counter dynamically
 
+### 📸 Screenshot
+
+The initial version of the resume website developed using HTML, CSS, and JavaScript.
+
+![Resume Website](images/screenshots/homepage1.png)
+
+![Resume Website](images/screenshots/homepage2.png)
+
 ---
 
 # Phase 3 — Version Control with Git
@@ -231,6 +268,7 @@ Throughout the development of this project, I continued using Git to track code 
 The complete source code for this project is maintained in a public GitHub repository using Git for version control.
 
 Repository: https://github.com/mercyoguche3-netizen/cloud-resume-project
+
 ---
 
 # Phase 4 — Hosting the Website on Amazon S3
@@ -341,6 +379,7 @@ Example:
 📸 Screenshot:
 
 ![Amazon API Gateway](images/screenshots/api-gateway.png)
+
 ---
 
 # Phase 9 — Connecting the Frontend to the Backend
@@ -382,13 +421,6 @@ Verified:
 
 ✅ Visitor counter displays correctly
 
----
-
-# Phase 11 — AWS Architecture
-
-The following architecture diagram illustrates the complete serverless workflow used in this project.
-
-![Cloud Resume Architecture](images/architecture-diagram.png)
 
 ---
 
@@ -591,20 +623,21 @@ CloudFront cached the previous website content.
 - CloudFront Invalidations
 - Content Delivery Networks
 
+# 📚 Lessons Learned
 
-## 📚 Lessons Learned
+Through this project I gained practical experience with:
 
-During this project, I learned how to:
+- Building cloud-native applications
+- Static website hosting using Amazon S3
+- Content delivery with CloudFront
+- Creating REST APIs with API Gateway
+- Serverless computing using AWS Lambda
+- NoSQL databases using DynamoDB
+- IAM permissions and security
+- Connecting frontend applications to AWS backend services
+- Git and GitHub version control
+- Debugging and troubleshooting cloud infrastructure
 
-- Host a static website on Amazon S3
-- Secure website access using CloudFront
-- Configure IAM roles and policies
-- Build serverless applications with AWS Lambda
-- Create REST APIs using API Gateway
-- Store application data in DynamoDB
-- Connect frontend JavaScript to backend APIs
-- Troubleshoot CORS and permission issues
-- Use Git and GitHub for version control
 ---
 
 ## Key Takeaways
@@ -627,20 +660,6 @@ This project taught me that building cloud applications involves much more than 
 | DynamoDB | Visitor counter database |
 | IAM | Secure permissions |
 
-# 📚 Lessons Learned
-
-Through this project I gained practical experience with:
-
-- Building cloud-native applications
-- Static website hosting using Amazon S3
-- Content delivery with CloudFront
-- Creating REST APIs with API Gateway
-- Serverless computing using AWS Lambda
-- NoSQL databases using DynamoDB
-- IAM permissions and security
-- Connecting frontend applications to AWS backend services
-- Git and GitHub version control
-- Debugging and troubleshooting cloud infrastructure
 
 ---
 
@@ -660,6 +679,22 @@ Through this project I gained practical experience with:
 | ✅ | Tested End-to-End Workflow | Completed |
 | ✅ | Created AWS Architecture Diagram | Completed |
 | ✅ | Documented Project | Completed |
+
+---
+
+## ✅ Project Outcome
+
+Successfully designed and deployed a serverless resume website using AWS services.
+
+The solution demonstrates:
+
+- Static website hosting
+- Content delivery with a CDN
+- Serverless backend development
+- REST API integration
+- NoSQL database implementation
+- IAM permission management
+- Frontend and backend integration
 
 ---
 
