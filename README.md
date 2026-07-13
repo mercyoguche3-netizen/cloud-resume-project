@@ -59,7 +59,7 @@ Whenever a visitor opens the website, the visitor counter is automatically updat
 
 # AWS Architecture
 
-The following architecture diagram illustrates the complete serverless workflow used in this project.
+The diagram below illustrates the end-to-end serverless architecture used in this project.
 
 ![Cloud Resume Architecture](images/architecture-diagram.png)
 
@@ -77,7 +77,7 @@ Throughout this project I learned how different AWS services work together to de
 
 **Website**
 
-https://d6m6jyakpkwys.cloudfront.net/
+https://d6m6jyakpkwys.cloudfront.net
 
 ---
 
@@ -267,7 +267,9 @@ Throughout the development of this project, I continued using Git to track code 
 
 The complete source code for this project is maintained in a public GitHub repository using Git for version control.
 
-Repository: https://github.com/mercyoguche3-netizen/cloud-resume-project
+Repository:
+
+https://github.com/mercyoguche3-netizen/cloud-resume-project
 
 ---
 
@@ -709,11 +711,11 @@ Aspiring Cloud Engineer passionate about designing secure, scalable, and serverl
 
 **GitHub**
 
-https://github.com/mercyoguche3-netizen
+[GitHub](https://github.com/mercyoguche3-netizen)
 
 **LinkedIn**
 
-www.linkedin.com/in/mercyoguche3
+[LinkedIn](https://www.linkedin.com/in/mercyoguche3)
 
 **Email**
 
